@@ -1,0 +1,47 @@
+• Ce este UML s, i pentru ce este utilizat?
+UML este un limbaj standardizat de modelare vizuală pentru documentarea, proiectarea și construirea sistemelor software. Este utilizat pentru a reprezenta structural și comportamental elementele unui sistem și relațiile dintre acestea. UML ajută la vizualizarea, specificarea, construirea și documentarea artefactelor unui sistem software.
+
+• Ce sunt modelele si care este utilitatea lor?
+Modelele sunt reprezentări abstracte și simplificate ale unor sisteme complexe. Ele sunt utilizate pentru a înțelege, a analiza, a documenta și a comunica structura și comportamentul sistemelor. Modelele facilitează discuția și analiza înainte de a construi sistemul fizic sau software.
+
+• Familiarizarea cu mediul de lucru mai sus amintit prin crearea anumitor
+Pentru a te familiariza cu Visual Paradigm, creează diagrame conform cerințelor proiectului tău, precum diagrama de clasă, diagrama de cazuri de utilizare, diagrama de activitate, diagrama de secvență și diagrama mașinii de stare.
+
+diagrame din sectiunile 2.3.1 s, i 2.3.2 din [1]. Mai exact:
+– Class diagram – diagrama de clas ̆a
+– Use case diagram – diagrama de cazuri de utilizare
+– Activity diagram – diagrama de activitate
+– Sequence diagram – diagrama de secvente
+– State machine diagram – diagrama mas, inii de stare
+
+• Ce tipuri de diagrame sunt prezentate ˆın [1] – Capitolul 2? Care sunt asem ̆anarile s, i deosebirile ˆıntre acestea?
+O diagrama de clasa si una de secventa.
+Asemănări:
+
+Ambele sunt diagrame UML și sunt utilizate pentru a reprezenta aspecte ale sistemelor software.
+Ambele folosesc simboluri standardizate UML, facilitând comunicarea și înțelegerea între diferiți stakeholderi.
+Sunt folosite în etapele de proiectare și analiză în dezvoltarea software-ului.
+
+Deosebiri:
+
+Diagramele de clasă se concentrează pe structura statică a sistemului, prezentând clasele, relațiile dintre ele și alte elemente structurale.
+Diagramele de secvență se concentrează pe comportamentul dinamic al sistemului, ilustrând cum obiectele interacționează între ele în timp prin schimburi de mesaje pentru a realiza o funcționalitate specifică.
+
+• Caracterizat, i succint fiecare diagrama prezentat ̆a ˆın [1] – Capitolul 2 (cele
+5 ment,ionate mai sus)
+Diagrama de clasă (Figura 1):
+Reprezintă structura statică a sistemului, arătând clasele, atributele, metodele și relațiile dintre acestea, cum ar fi asocierile (linii solide), dependențele (linii punctate) și generalizările (linii cu săgeți goale).
+În exemplul dat, diagrama ilustrează clasele implicate într-un sistem de comunicare distribuită, incluzând clase cum ar fi Naming, IClasaDistribuita, ClasaDistribuita și UnicastRemoteObject.
+
+Diagrama de cazuri de utilizare:
+descrie funcționalitățile sistemului și interacțiunile actorilor cu aceste funcționalități.
+
+Diagrama de activitate:
+descrie fluxurile de control și obiect în cadrul proceselor și operațiilor sistemului, similar cu un fluxogram.
+
+Diagrama de secvență (Figura 2):
+Ilustrează interacțiunea dintre obiecte într-o anumită secvență temporală.
+În exemplul dat, diagrama arată procesul de înscriere a unui student, cu mesaje schimbate între obiecte precum InscriereForm, Naming, și ICatalogMaterii.
+
+Diagrama mașinii de stare:
+arată stările prin care trece un obiect pe parcursul vieții sale și tranzițiile dintre aceste stări.
